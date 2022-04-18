@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/quicklinks",
   "description": "Quicklinks for DNB projects",
-  "version": "2022.0.5",
+  "version": "2022.0.6",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/quicklinks/issues"
