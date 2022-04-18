@@ -9,3 +9,5 @@ A quick and dirty proof of concept of a "free" redirection service, hosted on Ne
 - Step 3: add a custom domain or make your Netlify sub-domain look nice.
 
 Use your redirects.
+
+The installation for this repository is mapped to `dnbql.netlify.app`, so you can test it with adding any arbitrary redirection by adding the domain in front of the quicklink in `quicklinks/_redirects`.
