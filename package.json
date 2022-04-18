@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/quicklinks",
   "description": "Quicklinks for DNB projects",
-  "version": "2022.0.1",
+  "version": "2022.0.2",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/quicklinks/issues"
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": "davidsneighbour/quicklinks",
   "scripts": {
-    "release": "standard-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\"",
-    "release:major": "standard-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\""
+    "release": "standard-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && git push --follow-tags origin main",
+    "release:major": "standard-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && git push --follow-tags origin main"
   }
 }
