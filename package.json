@@ -1,0 +1,19 @@
+{
+  "name": "@davidsneighbour/quicklinks",
+  "description": "Quicklinks for DNB projects",
+  "version": "2022.0.0",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/quicklinks/issues"
+  },
+  "dependencies": {
+    "@davidsneighbour/standard-version-config": "^4.0.1"
+  },
+  "homepage": "https://github.com/davidsneighbour/quicklinks#readme",
+  "license": "MIT",
+  "repository": "davidsneighbour/quicklinks",
+  "scripts": {
+    "release": "standard-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\"",
+    "release:major": "standard-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\""
+  }
+}
