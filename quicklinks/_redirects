@@ -4,4 +4,4 @@
 
 # hugo modules
 /hooks        https://github.com/davidsneighbour/hugo-hooks/
-/opensearch   https://github.com/davidsneighbour/hugo-opensearch
+/opensearch   https://github.com/davidsneighbour/hugo-opensearch#configuration
