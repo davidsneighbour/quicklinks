@@ -7,7 +7,7 @@
     "url": "https://github.com/davidsneighbour/quicklinks/issues"
   },
   "dependencies": {
-    "@davidsneighbour/standard-version-config": "^5.5.2"
+    "@davidsneighbour/standard-version-config": "^5.8.11"
   },
   "homepage": "https://github.com/davidsneighbour/quicklinks#readme",
   "license": "MIT",
